@@ -5,3 +5,4 @@ git add .     add the files to the staging area.
 git --help     this will show you all functions of git.
 git commit -m "version 1"    this will commit the files changes. and save all.
 git log        to check tha changes.
+git config --global user.email "syedhanad786@gmail.com"     change the gmail.
