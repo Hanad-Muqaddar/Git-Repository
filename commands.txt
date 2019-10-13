@@ -6,3 +6,18 @@ git --help     this will show you all functions of git.
 git commit -m "version 1"    this will commit the files changes. and save all.
 git log        to check tha changes.
 git config --global user.email "syedhanad786@gmail.com"     change the gmail.
+…or create a new repository on the command line
+
+
+
+echo "# Git-Repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Hanad-Muqaddar/Git-Repository.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/Hanad-Muqaddar/Git-Repository.git
+git push -u origin master
